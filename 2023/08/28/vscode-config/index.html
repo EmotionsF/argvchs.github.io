@@ -15,6 +15,8 @@
     &quot;code-runner.fileDirectoryAsCwd&quot;: true,
     &quot;code-runner.ignoreSelection&quot;: true,
     &quot;code-runner.runInTerminal&quot;: true,
+    &quot;cph.general.autoShowJudge&quot;: false,
+    &quot;cph.general.timeOut&quot;: 10000,
     &quot;cph.language.c.Args&quot;: &quot;-std=c17 -Wall -O2&quot;,
     &quot;cph.language.c.Command&quot;: &quot;gcc&quot;,
     &quot;cph.language.cpp.Args&quot;: &quot;-std=c++20 -Wall -O2&quot;,
@@ -33,6 +35,7 @@
     &quot;editor.minimap.scale&quot;: 3,
     &quot;editor.renderWhitespace&quot;: &quot;boundary&quot;,
     &quot;editor.wordWrap&quot;: &quot;on&quot;,
+    &quot;explorer.autoReveal&quot;: false,
     &quot;explorer.confirmDelete&quot;: false,
     &quot;explorer.confirmDragAndDrop&quot;: false,
     &quot;explorer.sortOrder&quot;: &quot;type&quot;,
@@ -77,16 +80,18 @@
 BasedOnStyle: LLVM
 AccessModifierOffset: -2
 AlwaysBreakTemplateDeclarations: true
-AllowShortBlocksOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: true
 AllowShortEnumsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
 ColumnLimit: 90
 FixNamespaceComments: false
 IndentWidth: 4
+PenaltyExcessCharacter: 10
+PenaltyIndentedWhitespace: 10
 TabWidth: 4
 UseTab: Never</code></pre><p>这个配置的编译器用的是 GCC，如果你想用 Clang 可以自行修改。</p><p>如果是 Windows 7 要把 <code>editor.cursorSmoothCaretAnimation</code> 值改为 <code>true</code>。</p><p>还有上面的 <code>path/to/gcc.exe</code> 要换成你的编译器路径。</p><h1 id="vscode启动">VSCode，启动！</h1><hr><p>虽然你已经配置完了 VSCode，但其实还有一些可选的附加内容。</p><h1 id="clangd可选">3. Clangd（可选）</h1><p>Clangd 提供了比 IntelliSense 更好的语言服务器。</p><p>其实并不建议使用 Clangd，因为其处理大结构体数组时很慢，例如这样就可以卡崩 Clangd：</p><pre class="cpp"><code>struct node &#123;
     int a, b;
