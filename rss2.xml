@@ -9,8 +9,30 @@
     <atom:link href="https://argvchs.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 22 Oct 2023 12:28:59 GMT</pubDate>
+    <pubDate>Fri, 24 Nov 2023 13:48:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>P1135 奇怪的电梯</title>
+      <link>https://argvchs.github.io/2023/11/24/p1135/</link>
+      <guid>https://argvchs.github.io/2023/11/24/p1135/</guid>
+      <pubDate>Fri, 24 Nov 2023 13:46:57 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1135&quot;&gt;P1135 奇怪的电梯&lt;/a&gt;
+题解。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://argvchs.github.io/categories/oi/">OI</category>
+      
+      
+      <category domain="https://argvchs.github.io/tags/solution/">题解</category>
+      
+      
+      <comments>https://argvchs.github.io/2023/11/24/p1135/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>CSP-S 2023 游记</title>
@@ -212,27 +234,6 @@ MinGW-w64&lt;/a&gt;&lt;/p&gt;</description>
       
       
       <comments>https://argvchs.github.io/2023/06/24/mingw-w64-install-2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>计算 Florr.io 合卡概率</title>
-      <link>https://argvchs.github.io/2023/06/10/florr-io-crafting/</link>
-      <guid>https://argvchs.github.io/2023/06/10/florr-io-crafting/</guid>
-      <pubDate>Sat, 10 Jun 2023 02:43:08 GMT</pubDate>
-      
-      <description>&lt;p&gt;写了一个 &lt;a href=&quot;https://florr.io&quot;&gt;Florr.io&lt;/a&gt; 合卡概率计算器。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://argvchs.github.io/categories/oi/">OI</category>
-      
-      
-      <category domain="https://argvchs.github.io/tags/florr-io/">Florr.io</category>
-      
-      
-      <comments>https://argvchs.github.io/2023/06/10/florr-io-crafting/#disqus_thread</comments>
       
     </item>
     

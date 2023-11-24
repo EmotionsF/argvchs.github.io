@@ -6,7 +6,7 @@
   <link href="https://argvchs.github.io/atom.xml" rel="self"/>
   
   <link href="https://argvchs.github.io/"/>
-  <updated>2023-10-22T12:28:59.478Z</updated>
+  <updated>2023-11-24T13:48:26.285Z</updated>
   <id>https://argvchs.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>P1135 奇怪的电梯</title>
+    <link href="https://argvchs.github.io/2023/11/24/p1135/"/>
+    <id>https://argvchs.github.io/2023/11/24/p1135/</id>
+    <published>2023-11-24T13:46:57.000Z</published>
+    <updated>2023-11-24T13:48:26.285Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1135&quot;&gt;P1135 奇怪的电梯&lt;/a&gt;
+题解。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="OI" scheme="https://argvchs.github.io/categories/oi/"/>
+    
+    
+    <category term="题解" scheme="https://argvchs.github.io/tags/solution/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CSP-S 2023 游记</title>
     <link href="https://argvchs.github.io/2023/10/22/csps-2023/"/>
     <id>https://argvchs.github.io/2023/10/22/csps-2023/</id>
     <published>2023-10-22T04:06:41.000Z</published>
-    <updated>2023-10-22T12:28:59.478Z</updated>
+    <updated>2023-11-24T14:07:14.309Z</updated>
     
     
     <summary type="html">&lt;p&gt;CSP-S 2023 游记。&lt;/p&gt;</summary>
@@ -99,7 +119,7 @@ LS、CLS）是一个洛谷剪贴板模块规范。&lt;/p&gt;</summary>
     <link href="https://argvchs.github.io/2023/08/12/p9519/"/>
     <id>https://argvchs.github.io/2023/08/12/p9519/</id>
     <published>2023-08-12T13:19:17.000Z</published>
-    <updated>2023-10-03T16:31:16.882Z</updated>
+    <updated>2023-11-16T13:01:25.947Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P9519&quot;&gt;P9519 pay&lt;/a&gt;
@@ -159,7 +179,7 @@ LS、CLS）是一个洛谷剪贴板模块规范。&lt;/p&gt;</summary>
     <link href="https://argvchs.github.io/2023/07/27/p1001/"/>
     <id>https://argvchs.github.io/2023/07/27/p1001/</id>
     <published>2023-07-27T13:27:54.000Z</published>
-    <updated>2023-10-03T16:31:16.881Z</updated>
+    <updated>2023-11-16T13:01:25.946Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1001&quot;&gt;P1001 A+B
@@ -198,25 +218,6 @@ MinGW-w64&lt;/a&gt;&lt;/p&gt;</summary>
     <category term="GCC" scheme="https://argvchs.github.io/tags/gcc/"/>
     
     <category term="Clang" scheme="https://argvchs.github.io/tags/clang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算 Florr.io 合卡概率</title>
-    <link href="https://argvchs.github.io/2023/06/10/florr-io-crafting/"/>
-    <id>https://argvchs.github.io/2023/06/10/florr-io-crafting/</id>
-    <published>2023-06-10T02:43:08.000Z</published>
-    <updated>2023-10-03T16:31:16.875Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;写了一个 &lt;a href=&quot;https://florr.io&quot;&gt;Florr.io&lt;/a&gt; 合卡概率计算器。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="OI" scheme="https://argvchs.github.io/categories/oi/"/>
-    
-    
-    <category term="Florr.io" scheme="https://argvchs.github.io/tags/florr-io/"/>
     
   </entry>
   
